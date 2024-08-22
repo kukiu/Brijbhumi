@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.carousel img {
+    height: 300px;
+    object-fit: cover;
+}
+#loading {
+    display: none;
+    background-color: #666666;
+    background-image: url(../img/progress_spinner.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10000000;
+}
+.breadcrumb{
+    margin-bottom: 0;
+}
+.breadcrumb a{
+    color: #4dc7bc;
+}
+
+
+.property-contain{
+    margin: auto;
+    max-width: 800px; 
+    padding: 80px 24px;  
+
+}
+.page{
+    padding: 25px;
+}
+.star i {
+    color: #EA322E;
+    font-size: 12px;
+    margin-right: 6px;
+}
+.interest
+{
+    text-align: center;
+    padding-right: 24px;
+}
+.interest i{
+    color: #EA322E;
+    font-size: 20px;
+    cursor: pointer;
+}
+.interested-text{
+    font-size: 10px;
+    
+}
+.property-name{
+    font-size: 36px;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    .property-name {
+        font-size: 24px;
+    }
+}
+
+.star{
+    margin-left: 20px;
+}
+.address{
+    color: #6f6f6f;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.gender img{
+width: 40px;
+}
+.rent{
+    display: flex;
+    align-items: center;
+}
+.price{
+    padding-left: 17px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+@media (max-width: 768px) {
+    .price {
+        font-size: 18px;
+    }
+}
+.price-unit{
+    color: #6f6f6f;
+    font-size: 12px;
+}
+.button-container .btn {
+    font-size: 14px;
+    border-radius: 0px;
+    width: 140px;
+    float: right;
+}
+@media (max-width: 768px) {
+    .property-amenities .row>div {
+        padding-bottom: 24px;
+    }
+}
+.property-ammenities{
+    background-color: #fcfaf7;
+
+}
+.ammenities{
+    max-width: 800px;
+    padding: 80px 24px;
+    margin: auto;
+}
+.ammenities h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.containt{
+    margin: 8px 0px;
+}
+
+.containt img {
+    height: 20px;
+    margin-top: -4px;
+    margin-right: 4px;
+}
+.rating{
+    background-color:  #fcfaf7;
+}
+.icon{
+width: 14px;
+}
+.text{
+    margin-left: 8px;
+
+}
+.rating-style{
+    margin: 28px 0px;
+}
+.star-container{
+    margin-top: -2px;
+}
+.star-container i{
+    font-size: 12px;
+    color: #66C2BD;
+}
+.circle-rating{
+    background-color: #66C2BD;
+    color: white;
+    text-align: center;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding-top: 32px;
+    margin: auto;
+}
+.cir-rating{
+    font-size: 40px;
+}
+.rating-star-container i{
+    color: white;
+    font-size: 12px;
+}
+.people-saying h1{
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.block{
+    background-color: #fcfaf7;
+    padding: 0px 160px 24px;
+    margin-top: 80px;
+}
+@media (max-width: 768px) {
+    .block {
+        padding: 0px 24px 24px;
+    }
+}
+.image-container{
+    text-align: center;
+}
+.image-container img{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+}
+.text-size{
+    color: #777777;
+    text-align: center;
+    position: relative;
+}
+.text-size p{
+    text-indent: 26px;
+}
+.text-size i {
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.name{
+    color: #2F2E2E;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 12px;
+}

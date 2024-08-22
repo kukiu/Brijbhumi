@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+    <title>Home- Pryatan</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/static/extra/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">       
+     <link type="text/css" rel="stylesheet" href="/static/css/owl.carousel.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/owl.theme.default.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
+    
+	
+
+<!-- Latest compiled and minified CSS -->
+ 
+
+    <!-- Latest compiled and minified CSS -->
+
+</head>
+
+<body>
+    <div id="arrow">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="menu-par">
+                <div class="logo-par">
+                    <a href="{% url "index" %}">
+                        <h2><span style="color: #72A0C1;">Pry</span>atan</h2>
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                       
+                        <li class="log-in"><a class="menu-hover" href="{% url "form" %}"><i class="fa-solid fa-user"></i></a></li>
+                        
+                    </ul>
+                    
+                </div>
+              
+                <div id="toggle-btn">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+         
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="header-info-par">
+                <h1 class="typewrite" data-period="2000"
+                    data-type='["Vrindavan is not just a place; it is the epitome of devotion and divine love","In Barsana, the love of Radha and Krishna is eternally celebrated","To visit a holy place is to breathe the air of divinity."]'>
+                </h1>
+                    <p>Religious places are the vessels of human faith, where prayers are carried to the heavens. The sanctity of a place is not in its stones but in the hearts of those who find solace and spirituality there.</p>
+                <a href="#" class="a">Read More</a>
+            </div>
+            <div class="video">
+                {% comment %} <video id="video" autoplay loop muted> {% endcomment %}
+                    
+                                <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%"><iframe allow="fullscreen;autoplay" allowfullscreen height="100%" src="https://streamable.com/e/gwjoxy?autoplay=1&muted=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
+                    {% comment %} <source src="/static/images/travel-video.mp4" type="video/mp4" /> {% endcomment %}
+                    {% comment %} <source src="https://streamable.com/e/gwjoxy" type="video/mp4" /> {% endcomment %}
+                {% comment %} </video> {% endcomment %}
+            </div>
+
+
+
+
+        </div>
+    </header>
+    <!-- Second Slides Section -->
+    <section id="welcome-text">
+        <div class="container">
+            <h2>The Official Travel Site of the Braj</h2>
+            <p>You do not need to work to become spiritual. You are spiritual; you need only to remember that fact. Spirit is within you. God is within you</p>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="tranding" style="padding: 20px; margin: auto; text-align: center; align-items: center;">
+        <div class="container">
+          <h3 class="text-center section-subheading">- popular places -</h3>
+          <h1 class="text-center section-heading">Tranding spots</h1>
+        </div>
+        <div class="container">
+          <div class="swiper tranding-slider">
+            <div class="swiper-wrapper">
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="/static/images/57d60568-17fd-4fe7-9d96-8fa11c910806.jpeg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="place-name">
+                      Iskon Temple
+                    </h2>
+                    <h3 class="place-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="/static/images/explore-bg.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="place-name">
+                      Prem Mandir
+                    </h2>
+                    <h3 class="place-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="/static/images/02-1496383140-cover.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="place-name">
+                      Barsana
+                    </h2>
+                    <h3 class="place-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="/static/images/2.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="place-name">
+                      Banke Bihari
+                    </h2>
+                    <h3 class="place-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="/static/images/57d60568-17fd-4fe7-9d96-8fa11c910806.jpeg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="place-name">
+                      Iskon
+                    </h2>
+                    <h3 class="place-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="/static/images/af207b36-9f67-4907-8ab0-c90b05c1775d.jpeg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="place-name">
+                      Banke bihari
+                    </h2>
+                    <h3 class="place-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="/static/images/Radha Rani Temple, Barsana.jpeg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="place-name">
+                     Radha Rani Temple
+                    </h2>
+                    <h3 class="place-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+            </div>
+  
+            <div class="tranding-slider-control">
+              <div class="swiper-button-prev slider-arrow">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+              </div>
+              <div class="swiper-button-next slider-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+
+
+    <!-- Slides Section Start-->
+
+
+
+    <!--<section id="slides-par">
+        <div class="container">
+            <div class="slides">
+                <div class="slide_1 slide_2">
+                    <div class="slide-info">
+                        <p>Outer Islands</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_3">
+                    <div class="slide-info">
+                        <p>Pacific Harbour and Beqa</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_4">
+                    <div class="slide-info">
+                        <p>Savusavu & Surrounds</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_5">
+                    <div class="slide-info">
+                        <p>Suncoast</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_6">
+                    <div class="slide-info">
+                        <p>Taveun1</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_7">
+                    <div class="slide-info">
+                        <p>Yasawa Islands</p>
+                    </div>
+                </div>
+                <div class="slide_1 slide_8">
+                    <div class="slide-info">
+                        <p>Nadi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+
+
+
+    <!-- Slides Section Start-->
+
+    <!-- Book Now Section Start -->
+    <section id="book">
+        <div class="container">
+            <div class="book-content-par">
+                <div class="book-counter">
+                    <h3>Book Now</h3>
+                    <div id="clockdiv">
+                        <div>
+                            <span class="days"></span>
+                            <div class="smalltext">Days</div>
+
+                        </div>
+                        <div>
+                            <span class="hours"></span>
+                            <div class="smalltext">Hours</div>
+
+                        </div>
+                        <div>
+                            <span class="minutes"></span>
+                            <div class="smalltext">Minutes</div>
+
+                        </div>
+                        <div>
+                            <span class="seconds"></span>
+                            <div class="smalltext">Seconds</div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="book-form">
+                    <form action="/" method="POST"> 
+                        {% csrf_token %}
+                        <input type="text" id="fname" name="firstname" placeholder="Your Name...">
+                        <input type="text" id="lname" name="lastname" placeholder="Your Last Name...">
+                        <input type="text" id="name" name="phone" placeholder="Mobile">
+                        <select name="city" id="city">
+                            <option value="Vrindavan">Vrindavan</option>
+                            <option value="Goverdhan">Goverdhan</option>
+                            <option value="Gokul">Gokul</option>
+                            <option value="Barsana">Barsana</option>
+                            <option value="Nandgaon">Nandgaon</option>
+                        </select>
+                        <textarea name="subject" id="subject"  placeholder="Write something..."
+                            style="height: 200px;"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Book Now Section End -->
+
+
+    <!----Card section \-->
+
+   
+   
+
+  
+    <!-- Gallery Section Starts -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div align="center" class="filter-btn-par">
+                    <button class="filter-button" data-filter="all" style="color: blue;">HOME</button>
+                    <button class="filter-button" data-filter="diving">BLOG</button>
+                    <button class="filter-button" data-filter="nature">ABOUT US</button>
+                    <button class="filter-button" data-filter="health">SUPPORT</button>
+                </div>
+                <div class="filter-gal-par">
+                    <div class="gallery-item filter diving">
+                        <img src="/static/images/gallery/57d60568-17fd-4fe7-9d96-8fa11c910806.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter diving">
+                        <img src="/static/images/gallery/Radha Rani Temple, Barsana.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter diving">
+                        <img src="/static/images/gallery/Mathura_Temple-Mathura-India0002.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter health">
+                        <img src="/static/images/gallery/Snapchat-1038366589.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter health">
+                        <img src="/static/images/gallery/main-qimg-3050324b61e5cff0964b5d87e5bb4e9b-lq.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="/static/images/gallery/images (10).jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="/static/images/gallery/Mathura_Temple-Mathura-India0002.jpeg" alt="" class="img-responsive">
+                    </div>
+                    <div class="gallery-item filter nature">
+                        <img src="/static/images/gallery/800px-Vishram_Ghat_20200428142441 (1) (1).jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Ends -->
+
+    <!-- Mutiple Slider Section Starts -->
+    <section id="water-slider">
+        <div class="container">
+            <h3>Start Planning Your Dream Holiday</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="/static/images/slider/Rectangle 1.png" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Vrindavan</h3>
+                            <p>Mathura (U.P)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="/static/images/slider/Rectangle 4.png" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Barsana</h3>
+                            <p>Mathura (U.P)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="/static/images/slider/Rectangle 5.png" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Nandgaon</h3>
+                            <p>Mathura (U.P)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="/static/images/slider/Rectangle 3.png" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Yamuna Ghat</h3>
+                            <p>Mathura (U.P)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="/static/images/slider/Rectangle 7.png" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Nidhivan</h3>
+                            <p>Mathura (U.P)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="/static/images/slider/Rectangle 6.png" alt="" class="img-responsive" />
+                        <div class="owl-img-info">
+                            <h3>Gokul</h3>
+                            <p>Mathura (U.P)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section Starts -->
+    <section id="blog">
+        <div class="container">
+            <h3>News And Events</h3>
+            <div class="blog-par">
+                <div class="blog-content">
+                    <!-- one div for image and one for info -->
+                    <div class="blog-img-par">
+                        <img src="/static/images/slider/images (9).jpeg" alt="" class="img-responsive">
+
+                    </div>
+                    <div class="blog-info-par">
+                        <ul>
+                            <li>Shaurya</li>
+                            <li>24.05.2024</li>
+                        </ul>
+                        <h4>Yamuna Ghat</h4>
+                        <p>Mathura, with its many temples and splendid ghats along the river Yamuna is a bustling pilgrimage town for Hindus in Uttar Pradesh.</p>
+
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <!-- one div for image and one for info -->
+                    <div class="blog-img-par">
+                        <img src="/static/images/slider/2.jpg" alt="" class="img-responsive">
+
+                    </div>
+                    <div class="blog-info-par">
+                        <ul>
+                            <li>Shaurya</li>
+                            <li>19.01.2024</li>
+                        </ul>
+                        <h4>Banke Bihari Temple</h4>
+                        <p>The Banke Bihari Temple is a Hindu temple situated in the town of Vrindavan, Mathura district of Uttar Pradesh (India).</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="blog-par">
+                <div class="blog-content">
+                    <!-- one div for image and one for info -->
+                    <div class="blog-img-par">
+                        <img src="/static/images/slider/02-1496383140-cover.jpg" alt="" class="img-responsive">
+
+                    </div>
+                    <div class="blog-info-par">
+                        <ul>
+                            <li>Radhika</li>
+                            <li>12.05.2024</li>
+                        </ul>
+                        <h4>Shri Radha Rani Temple, Barsana</h4>
+                        <p>Shri Radha Rani Temple, is a historical Hindu temple, located in Barsana in Mathura district, Uttar Pradesh, India. The temple is dedicated to the goddess Radha. </p>
+
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <!-- one div for image and one for info -->
+                    <div class="blog-img-par">
+                        <img src="/static/images/slider/95333.jpg" alt="" class="img-responsive">
+
+                    </div>
+                    <div class="blog-info-par">
+                        <ul>
+                            <li>Rahul</li>
+                            <li>08.04.2024</li>
+                        </ul>
+                        <h4>Shri Krishan Temple Iskcon Vrindavan</h4>
+                        <p>Sri Krishna Balrama Temple is acknowledged for being the first temple constructed by the International Society for Krishna Consciousness .</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mutiple Slider Section Ends -->
+
+    <!-- Footer Starts-->
+    <footer>
+        <div class="container">
+            <div class="footer-par">
+                <div class="footer-1 ">
+                    <h3 class="footer-logo-h">Travel</h3>
+                </div>
+                <div class="footer-1 footer-info">
+                    <h3>Pryatan</h3>
+                    <ul>
+                        <li><a href="">Tourism</a></li>
+                        <li><a href="">Online Travel News</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-1 footer-info">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="footer-1 footer-info">
+                    <h3>Need Help?</h3>
+                    <ul>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Share a News Tip</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">@Pryatan.com</p>
+    </footer>
+
+
+    <script src="/static/js/jquery-3.1.1.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/extrenaljq.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/static/extra/script.js"></script>
+   
+</body>
+
+</html>
